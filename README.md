@@ -8,6 +8,10 @@ npx hardhat (会替换掉之前的 readme 和 gitignore，不过这里重新找�
 
 遇到问题查出是 vue-router 版本问题，可能此版本不支持 vue2。yarn remove vue-router。再在 package.json 中添加"vue-router": "^3.3.2"。再 yarn 安装
 
+---
+
+再次卸载 vue-router，并用 npm install --legacy-peer-deps vue-router@3.5.2 -D 重装
+
 # vue-hardhat
 
 ## Project setup
