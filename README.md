@@ -4,6 +4,10 @@ yarn install
 yarn add vue-router(遇到此提示，不知是否会有问题：warning " > vue-router@4.0.12" has incorrect peer dependency "vue@^3.0.0".)  
 npx hardhat (会替换掉之前的 readme 和 gitignore，不过这里重新找了回来，并将替换前后的文件合并了)
 
+---
+
+遇到问题查出是 vue-router 版本问题，可能此版本不支持 vue2。yarn remove vue-router。再在 package.json 中添加"vue-router": "^3.3.2"。再 yarn 安装
+
 # vue-hardhat
 
 ## Project setup
